@@ -1,0 +1,38 @@
+# Comp1950GroupProject
+Comp 1950 Group Project
+Group Information
+
+cdkoth@shaw.ca
+stewardzhao@gmail.com
+alvarezricky@hotmail.com
+
+Tasks and Skillsets Focus: 
+
+Ricky:
+
+Styling with CSS-head adjudicator of CSS styles
+HTML Content
+
+Steward:
+
+Programming and Javascript
+Advanced Css Styling features
+HTML Content
+
+Charles
+
+Server Side Includes
+Photoshop for Images
+HTML Website Content and Structure
+
+Resources Agreement
+
+To use Git Hub to suggest mock up ideas
+
+Contacts: 
+
+Each member has the other member cell number for text or email communication.
+
+Charles: 778-928-5194
+Ricky: 778-9857290
+Steward" 604-790-5688
