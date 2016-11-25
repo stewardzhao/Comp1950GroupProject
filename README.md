@@ -2,7 +2,7 @@
 Comp 1950 Group Project
 Group Information
 
-cdkoth@shaw.ca
+slakkend@gmail.com
 stewardzhao@gmail.com
 alvarezricky@hotmail.com
 
@@ -33,6 +33,6 @@ Contacts:
 
 Each member has the other member cell number for text or email communication.
 
-Charles: 778-928-5194
+Charles: See Email
 Ricky: 778-9857290
 Steward" 604-790-5688
