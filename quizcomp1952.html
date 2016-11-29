@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <script type="text/javascript" src="js/TimeCircles.js"></script>
+        <link rel="stylesheet" href="css/TimeCircles.css" />
+    </head>
+    <body>
+        <div class="container">
+             <h1>COMP 1952 Quiz</h1>
+            <h2>Counting down 30 minutes (1800 seconds)</h2>
+            <div id="CountDownTimer" data-timer="1800" style="width: 400px; height: 100px;"></div>
+            <button class="btn btn-success startTimer">Start Timer</button>
+            <button class="btn btn-danger stopTimer">Stop Timer</button>
+            <hr>
+            <h2>Please complete the following questions under 30 minutes</h2>
+            <form action="#">
+            	<ol>
+            		<li>Your Name:<br>
+  						<input type="text" name="firstname"><br>
+  					</li>
+            		<li>Which is your gender: <br>  
+            			<input type="radio" name="gender" value="male" checked> Male 
+            			<input type="radio" name="gender" value="female" > Female 
+            			<br>
+            		</li>
+            		<li>How old are you ?<br>
+            		<input type="number" name="age">
+            		</li>
+
+            		<li>what is your favour:<br>
+            			<input type="checkbox" name="vehicle1" value="Bike"> A bike  <br>
+  						<input type="checkbox" name="vehicle2" value="Car"> A car<br>
+  						<input type="checkbox" name="vehicle2" value="Car"> A house<br>
+  						<input type="checkbox" name="vehicle2" value="Car"> A girl<br>
+            		</li>
+            		<li>Describle yourself: <br>
+            			<textarea name="message" rows="6" cols="50">Please keyin your answer
+						</textarea>
+            		</li>
+            		
+
+            	</ol><br>
+            	<input type="reset">
+            	<input type="submit" value="Submit">
+            </form>
+
+            
+        </div>
+        <script>
+           
+            $("#CountDownTimer").TimeCircles({ time: { Days: { show: false }, Hours: { show: false } }}).stop();
+         
+            
+            
+            // Start and stop are methods applied on the public TimeCircles instance
+            $(".startTimer").click(function() {
+                $("#CountDownTimer").TimeCircles().start();
+            });
+            $(".stopTimer").click(function() {
+                $("#CountDownTimer").TimeCircles().stop();
+            });
+
+           
+        </script>       
+    </body>
+</html>

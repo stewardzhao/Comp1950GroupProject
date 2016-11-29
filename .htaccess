@@ -1,0 +1,21 @@
+# .htaccess 
+# ------------
+# the .htaccess file customizes how the server will behave
+# comments in .htaccess begin with a number sign (like this line does!)
+# the directives below assign the following behaviours:
+# 1 - AddType		determine which MIME type to associate with files based on extension		
+# 2 - AddHandler	assigns which file extensions will be processed for SSIs
+# 3 - Options		enables SSIs, and allows this .htaccess file to apply to all subfolders
+
+AddType text/html .shtml .html .htm .inc
+AddHandler server-parsed .shtml .html .htm .inc
+Options Indexes FollowSymLinks Includes 
+
+#The ErrorDocument redirects all 404s to a specific URL
+ErrorDocument 404 http://bcitcomp.ca/63zhax/myError.html
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ http://bcitcomp.ca/63zhax/myError.html [L]
