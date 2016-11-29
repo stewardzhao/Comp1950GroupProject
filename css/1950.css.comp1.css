@@ -1,0 +1,64 @@
+#body{
+margin-left:20px;
+}
+
+.contblock{
+background-color:#b3b3ff;
+padding:20px;
+border:1px solid;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+}
+
+nav li a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+background-color: #555;
+color: white;
+}
+
+
+h1,h2,h3{
+color:red;
+}
+
+.intro a{
+color:grey;
+}
+
+.intro{
+border:1px solid;
+padding:10px;
+background-color:#b3b3ff;
+}
+
+.contblock a{
+color:grey;	
+}
+
+#footer a{
+color:red;
+text-decoration:none;
+}
+
+
+#footer{
+margin-top:10px;
+padding: 5px 18px;
+font-size: 20px;
+color: red;
+border: 1px dashed #888;
+background:#b3b3ff;
+}

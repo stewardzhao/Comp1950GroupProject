@@ -1,0 +1,21 @@
+article{
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+h2{
+	font-size: 30px;
+	font-style: oblique;
+	opacity: 0.8;
+}
+p{	
+	font-size: 1.5em;
+	padding: 20px;
+	
+}
+
+#footer{
+	clear: both;	
+	text-align: center;
+	font-size: 0.9em;
+}

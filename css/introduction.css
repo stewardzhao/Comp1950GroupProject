@@ -1,0 +1,183 @@
+body{
+font-family:verdana;
+}
+
+#wrapper{
+width: 1000px;
+margin: 0 auto;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:black;
+}
+
+nav li {
+float: left;
+}
+
+nav li a {
+display: block;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:verdana;
+}
+
+li a:hover:not(.active) {
+    background-color:grey;
+}
+
+.active {
+    background-color:green;
+}
+
+#IntroductionPage{
+margin-left:50px;
+}
+
+#Introduction{
+position:relative;
+top:-243px;
+margin-left:-152px;
+background-color:green;
+color:black;
+padding:5px;
+text-decoration:none;
+}
+
+#infor{
+position:relative;
+top:-240px;
+margin-left:-159px;
+background-color:orange;
+color:white;
+text-decoration:none;
+padding:8px;
+font-family:verdana;
+width:200px;
+}
+
+h1{
+margin-top:-.5px;
+background-color:green;
+font-family:verdana;
+text-align:center;
+padding:5px;
+width:250px;
+}
+
+h2{
+text-align:center;
+background-color:grey;
+padding:5px;
+width:210px;
+}
+
+#orange{
+background-color:orange;
+}
+
+h4{
+margin-top:-17px;
+font-family:verdana;
+background-color:green;
+font-family:verdana;
+text-align:center;
+padding:5px;
+width:250px;
+}
+
+#stewartskills{
+margin-bottom:-800px;
+}
+
+.stewart{
+margin-left:192px;
+background-color:orange;
+width:100px;
+padding:5px;
+text-align:center;	
+}
+
+#redtie{
+position:relative;
+top:-19px;
+border:solid 1px black;
+}
+
+#charlesskills{
+position:relative;
+top:373px;
+margin-left:350px;
+}
+
+.charles{
+margin-left:192px;
+background-color:orange;
+width:100px;
+padding:5px;
+text-align:center;	
+}
+
+#brownbeard{
+position:relative;
+top:-19px;
+border:solid 1px black;	
+}
+
+#rickyskills{
+position:relative;
+top:-75px;
+margin-left:700px;
+margin-bottom:-20px;
+}
+
+.ricky{
+margin-left:192px;
+background-color:orange;
+width:100px;
+padding:5px;
+text-align:center;		
+}
+
+#brightred{
+position:relative;
+top:-19px;
+border:solid 1px black;		
+}
+
+#stewarttasksresponsibilties{
+margin-bottom:-250px;
+}
+
+#charlestasksresponsibilties{
+position:relative;
+top:125px;
+margin-left:350px;
+}
+
+#rickytasksresponsibilties{
+position:relative;
+top:4px;
+margin-left:700px;	
+}
+
+p{
+font-family:verdana;
+}
+
+footer{
+background-color:black;
+text-align:center;
+}
+
+footer a{
+font-family:verdana;
+color:green;
+text-decoration:none;
+}
