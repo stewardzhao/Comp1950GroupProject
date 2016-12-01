@@ -33,6 +33,3 @@ Contacts:
 
 Each member has the other member cell number for text or email communication.
 
-Charles: 778-928-5194
-Ricky: 778-9857290
-Steward" 604-790-5688
