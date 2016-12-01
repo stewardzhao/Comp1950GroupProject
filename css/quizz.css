@@ -1,0 +1,68 @@
+form {
+    #position:absolute;
+    #left: 400px;
+	width: 800px;
+	border: 10px ridge;
+	border-color: #b2c2bf;
+	#background-color: #667292;
+	font-family: Arial, sans-serif;
+	padding:10px;
+	color: black;
+    
+	}
+	
+
+fieldset {
+    #background-color: #8d9db6;
+	width: 600px;
+	border: 10px ridge;
+    border-color: #8d9db6;
+    margin: 0;
+	margin-top: 10px;
+	}
+
+.student_details {
+    position:relative;
+    left: 40px;
+    }
+legend {
+	font-family: Lucida, sans-serif;
+	font-weight: bold;
+	}
+	
+body {
+#background-color: #8d9db6;
+background-color: white;
+color:black;
+width: 50%;
+font-family: Lucida, sans-serif;
+padding:10px;
+ margin: 0;
+}
+    
+#hdr{
+    position:relative;
+    #left:380px;
+    width:800px;
+    #margin:auto;
+    margin:0;
+    border: 10px ridge;
+	border-color: #b2c2bf;
+	#background-color: #7489a6;
+    padding:10px;
+    margin-bottom:5px;
+    }
+    
+    #fmt1{
+        margin-left:45px;
+    }
+    #fmt2{
+        margin-left:6px;
+    }
+    
+    form ol li {
+        
+        margin: 20px 5px;
+        font-size: 1em;
+    }
+	

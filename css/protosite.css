@@ -51,7 +51,9 @@ li a:hover:not(.active) {
 #leftnav {
     display:inline-block;
     float:left;
-    width:290px;
+    margin: 0;
+    padding: 0;
+    width:200px;
 }
 
 #leftnav ul {
@@ -70,10 +72,16 @@ border: 1px solid black;
 text-decoration: none;
 }
 
+#accordion{
+    display:inline-block;
+    float:left;
+    width:700px;
+}
+
 #iframequiz {
     display:inline-block;
     float:right;
-    width:700px;
+    width:800px;
     height: 700px;    
     border:2px #4CAF50 solid;
 }

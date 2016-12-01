@@ -1,0 +1,72 @@
+#banner {
+  font-family:'Trebuchet MS', Sans-serif;
+  background-color: #9da8e1;
+  height: 100px;
+  color: #000000;
+  }
+#banner h1 {
+  text-align: center;
+}
+
+#titlebar{
+  position:relative;
+  bottom:15px;
+  left:5px;
+}
+
+#agenda ul>h2,li{
+  display:inline;
+}
+
+#agenda ul {
+  position:relative;
+  align-items:center;
+  text-align: center;
+}
+
+#content_section {
+  float:left;
+  border: 1px solid white;
+  width:250px;
+  height:1600px;
+  padding:20px 20px 20px 20px;
+  background-color:#667292;
+}
+
+/*COLOR PALLETTE SKT PALLETTS
+http://www.w3schools.com/colors/colors_palettes.asp
+
+#bccad6 light blue gray
+#8d9db6 medium blue gray
+#667292 darker border blue gray
+#f1e3dd pink gray for background hover*/
+
+#content_section a {
+  display:block;
+  border: 1px solid white;
+  color:white;
+  background-color:#bccad6;
+}
+
+ #content_section a:hover{
+  background-color:#87bdd8;
+  color:black;
+}
+
+#maincont {
+  border:1px solid #bccad6;
+  background-color: #8d9db6;
+}
+
+.contblock {
+  border:1px solid #bccad6;
+  background-color: #8d9db6;
+  padding:20px 50px 20px 20px;
+  margin:5px 5px 5px 5px;
+}
+
+body {
+background-color: #1B2455;
+font: bold 13px Tahoma, 'Trebuchet MS', Sans-serif;
+color:#ffffff;
+}
