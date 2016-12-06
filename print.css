@@ -1,0 +1,28 @@
+
+
+header, nav, footer{
+display: none;
+}
+
+ #content_section a{
+   display:inline;
+ }
+
+ body, #content_section, footer  {
+/* floating is not advised for printers */
+float: none;
+/* let the printer set margins */
+width: auto;
+margin: 0;
+padding: 0;
+/* dont display background colors or images */
+background: none;
+}
+
+h2, h2, h4{ page-break-after: avoid; }
+
+* {
+  color:black;
+  background-color:white;
+  font-family: Arial, Verdana, sans-serif;
+}

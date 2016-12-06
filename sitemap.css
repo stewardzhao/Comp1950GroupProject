@@ -1,0 +1,495 @@
+#wrapper{
+width: 1000px;
+margin: 0 auto;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:black;
+}
+
+nav li {
+float: left;
+}
+
+nav li a {
+display: block;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:verdana;
+}
+
+li a:hover:not(.active) {
+    background-color:grey;
+}
+
+.active {
+    background-color:green;
+}
+
+h1{
+margin-top:-.5px;
+background-color:green;
+font-family:verdana;
+text-align:center;
+padding:5px;
+width:250px;
+}
+
+#floating-box{
+position:relative;
+margin-top:-.5px;
+left:425px;
+background-color:green;
+font-family:verdana;
+text-align:center;
+width: 135px;
+height: 75px;
+margin: 10px;
+border: 3px solid blue;
+background-color:blue;  
+}
+
+h3{
+position:relative;
+top:-70px;
+margin-left:450px;
+font-family:verdana;
+}
+
+h4{
+margin-top:-17px;
+background-color:green;
+font-family:verdana;
+text-align:center;
+padding:5px;
+width:250px;
+}
+
+#square{
+position:relative;
+top:-40px;
+margin-left:505px;
+width:3px;
+height:55px;
+background-color:blue;
+}
+
+
+#rectangle{
+position:relative;
+top:17px;
+margin-left:820px;
+width:40px;
+height:3px;
+background:green;
+}
+
+#rectangle1{
+position:relative;
+top:15px;
+margin-left:650px;
+width:40px;
+height:3px;
+background:green;
+}
+
+#rectangle2{
+position:relative;
+top:11px;
+margin-left:490px;
+width:40px;
+height:3px;
+background:green;
+}
+#rectangle3{
+position:relative;
+top:8px;
+margin-left:320px;
+width:40px;
+height:3px;
+background:green;
+}
+
+#rectangle4{
+position:relative;
+top:4px;
+margin-left:170px;
+width:40px;
+height:3px;
+background:green;
+}
+
+.floating-box1{
+position:relative;
+top:-35px;
+left:20px;
+margin-bottom:-430px;
+display: inline-block;
+width: 135px;
+height: 75px;
+margin: 10px;
+border: 3px solid green;
+background-color:green;  
+}
+
+.newsandevents,.coursehomepage,.activities,.systemupdates,.email,.grades{
+position:relative;
+top:-110px;
+margin-left:30px;
+display:inline-block;
+color:black;
+font-size:13px;
+}
+
+.newsandevents{
+margin-left:50px;
+}
+
+.coursehomepage{
+margin-left:35px;
+}
+
+.activities{
+margin-left:60px;
+}
+
+.systemupdates{
+margin-left:67px;
+}
+
+.email{
+margin-left:75px;
+}
+
+.grades{
+margin-left:115px;
+}
+
+#square1{
+position:relative;
+top:-91px;
+margin-left:900px;
+width:3px;
+height:55px;
+background-color:orange;
+}
+
+#square2{
+position:relative;
+top:-120px;
+margin-left:760px;
+width:3px;
+height:30px;
+background-color:orange;
+}
+
+#square3{
+position:relative;
+top:-176px;
+margin-left:590px;
+width:3px;
+height:30px;
+background-color:orange;
+}
+
+#square4{
+position:relative;
+top:-180px;
+margin-left:590px;
+margin-bottom:-80px;
+width:170px;
+height:4px;
+background:orange;
+}
+
+#square5{
+position:relative;
+top:-130px;
+margin-left:480px;
+margin-bottom:-108px;
+width:3px;
+height:55px;
+background-color:orange;
+}
+
+#square6{
+position:relative;
+top:5px;
+margin-left:550px;
+width:60px;
+height:4px;
+background:orange;
+}
+
+#square7{
+position:relative;
+top:4px;
+margin-left:170px;
+width:200px;
+height:4px;
+background:orange;
+}
+
+.floating-box2{
+position:relative;
+top:-40px;
+left:60px;
+margin-bottom:-490px;
+display: inline-block;
+width: 100px;
+height: 75px;
+margin: 10px;
+border: 3px solid orange;
+background-color:orange;  
+}
+
+.Comp1950,.Comp2050,.Comp2150,.dropbox,.discussion,.outages,.stgrades{
+position:relative;
+top:-150px;
+margin-left:30px;
+display:inline-block;
+color:black;
+font-size:13px;
+}
+
+.Comp1950{
+margin-left:80px;	
+}
+
+.Comp2050{
+margin-left:40px;
+}
+
+.Comp2150{
+margin-left:50px;
+}
+
+.dropbox{
+margin-left:50px;
+}
+
+.discussion{
+margin-left:60px;	
+}
+
+.outages{
+margin-left:60px;	
+}
+
+.stgrades{
+margin-left:70px;	
+}
+
+.floating-box3{
+position:relative;
+top:-84px;
+left:20px;
+margin-bottom:-500px;
+display: inline-block;
+width: 110px;
+height: 75px;
+margin: 10px;
+border: 3px solid grey;
+background-color:grey;  
+}
+
+#square8{
+position:relative;
+top:-50px;
+margin-left:50px;
+width:935px;
+height:3px;
+background:grey;
+}
+
+#square9{
+position:relative;
+top:-234px;
+margin-left:120px;
+margin-bottom:-120px;
+width:3px;
+height:59px;
+background-color:grey;
+}
+
+.quizpage,.checknotes,.coursecontent,.studentsnotes,.calendar,.instructorspage,.coursetools{
+position:relative;
+top:-118px;
+margin-left:-40px;
+display:inline-block;
+color:black;
+font-size:13px;
+}
+
+.quizpage{
+margin-left:50px;	
+}
+
+.checknotes{
+margin-left:55px;
+}
+
+.coursecontent{
+margin-left:35px;
+}
+
+.studentsnotes{
+margin-left:25px;
+}
+
+.calendar{
+margin-left:47px;	
+}
+
+.instructorspage{
+position:relative;
+margin-left:60px;	
+}
+
+.coursetools{
+margin-left:50px;	
+}
+
+#square10{
+position:relative;
+top:-96px;
+margin-left:900px;
+margin-bottom:-20px;
+width:3px;
+height:60px;
+background: red;
+}
+
+#square11{
+position:relative;
+top:-135px;
+margin-left:690px;
+margin-bottom:-20px;
+width:3px;
+height:60px;
+background: red;
+}
+
+#square12{
+position:relative;
+top:-447px;
+margin-left:250px;
+margin-bottom:-60px;
+width:3px;
+height:60px;
+background:orange;
+}
+
+#rectangle5{
+position:relative;
+top:-90px;
+margin-left:500px;
+width: 40px;
+height: 4px;
+background: red;
+}
+
+#square13{
+position:relative;
+top:-179px;
+margin-left:490px;
+margin-bottom:-60px;
+width:3px;
+height:60px;
+background: red;
+}
+
+#square14{
+position:relative;
+top:-179px;
+margin-left:100px;
+margin-bottom:-60px;
+width:3px;
+height:60px;
+background: red;
+}
+
+#square15{
+position:relative;
+top:-179px;
+margin-left:250px;
+margin-bottom:-60px;
+width:3px;
+height:60px;
+background: red;
+}
+
+.floating-box4{
+position:relative;
+top:-130px;
+left:50px;
+margin-bottom:-650px;
+display: inline-block;
+width: 130px;
+height: 75px;
+margin: 10px;
+border: 3px solid red;
+background-color:red;  
+}
+
+.floating-box5{
+position:relative;
+top:-129px;
+left:50px;
+margin-bottom:-650px;
+display: inline-block;
+width: 110px;
+height: 75px;
+margin: 10px;
+border: 3px solid purple;
+background-color: purple;  
+}
+
+.submissionpage,.lecturesessions,.session1note,.zipfunctions,.courseoutline,.groups{
+position:relative;
+top:-210px;
+margin-left:66px;
+display:inline-block;
+color:black;
+font-size:13px;
+}
+
+.lecturesessions{
+margin-left:33px;	
+}
+
+.session1note{
+margin-left:40px;
+}
+
+.zipfunctions{
+margin-left:50px;
+}
+
+.courseoutline{
+margin-left:50px;
+}
+
+.groups{
+margin-left:80px;
+}
+
+footer{
+position:relative;
+top:-20px;
+padding:10px;
+background-color:black;
+text-align:center;
+}
+
+footer a{
+font-family:verdana;
+color:green;
+text-decoration:none;
+}

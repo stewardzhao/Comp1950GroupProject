@@ -1,0 +1,142 @@
+
+/*Agenda*/
+.banner ul li{
+  display:inline;
+}
+/*lecture_page #3073AC*/
+
+#lecture_page {
+  position:relative;
+  right:10px;
+  font-family:'Trebuchet MS', Sans-serif;
+  background-color: #6D9BC3;
+  color: #000000;
+  margin-bottom:5px;
+  text-align: center;
+}
+
+#agenda {
+	font-size: 2.5em;
+	display:block;
+}
+
+/*Panel Sections*/
+
+.panel {
+  margin-left: 25px;
+}
+
+.panel-heading {
+  background: #6D9BC3;
+}
+
+.panel-body {
+  background:#ccdcec;
+}
+
+/*Fragment Identifier*/
+#content_section {
+  border: 1px solid white;
+  width:250px;
+  height:800px;
+  padding:20px 20px 20px 20px;
+  background-color:#3b5780;
+  color:#ffffff;
+}
+
+#content_section a {
+  display:block;
+  border: 1px solid white;
+  color:black;
+  background-color:#6D9BC3;
+}
+
+ #content_section a:hover{
+  background-color:#3b5780;
+  color:white;
+  font-size: 1.4em;
+}
+
+
+code {
+  color: #A6542B;
+}
+
+body {
+  background:#e0e2e4;
+}
+
+#rightcont {
+  position:relative;
+  left:30px;
+  text-align: center;
+  background-color:#3b5780;
+  color:white;
+  font-family:'Trebuchet MS', Sans-serif;
+}
+
+#rightcont a{
+      color:white;
+}
+
+#rightcont a:hover{
+      color:black;
+}
+.lectures  {
+    color:white;
+}
+
+.lectures:hover {
+    color:black;
+}
+
+
+/*Targeting more panel attributes on font headers and styles*/
+
+.panel-body h2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #181999;
+}
+
+.panel-body h2,a {
+  display:inline;
+}
+
+.panel-title {
+  font-family:Arial, Verdana, sans_serif;
+  font-size: 1.3em;
+  font-weight:bold;
+  color: #181999;
+  text-align: center;
+  text-decoration:underline;
+  }
+
+.panel-title:hover {
+  font-size: 1.6em;
+}
+
+.top-fragment {
+  float:right;
+  color: 	#CC835E;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+
+.panel{
+  float:right;
+  background: #47657F;
+  font-family:'Trebuchet MS', Sans-serif;
+}
+
+
+
+dd, dt{ display:inline;}
+
+#butt{
+  background:#6D9BC3;
+  color:black;
+  align-items:center;
+  border: 1px solid white;
+}
